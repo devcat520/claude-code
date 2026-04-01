@@ -37,10 +37,11 @@ Anthropic 官方 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) C
 - 常规的配置 CC 的方式, 各大提供商都有自己的配置方式
 
 ### 安装
+###自己加的
+按 Win + X，选择 Windows PowerShell (管理员) 或 终端 (管理员)
+powershell -c "irm bun.sh/install.ps1|iex"  
 
 ```bash
-powershell -c "irm bun.sh/install.ps1|iex"  (自己加的)
-
 bun install
 ```
 
