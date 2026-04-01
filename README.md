@@ -39,6 +39,8 @@ Anthropic 官方 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) C
 ### 安装
 
 ```bash
+powershell -c "irm bun.sh/install.ps1|iex"  (自己加的)
+
 bun install
 ```
 
