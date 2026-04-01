@@ -38,12 +38,19 @@ Anthropic 官方 [Claude Code](https://docs.anthropic.com/en/docs/claude-code) C
 
 ### 安装基础环境(devcat520额外加的)
 按 Win + X，选择 Windows PowerShell (管理员) 或 终端 (管理员)
+
 powershell -c "irm bun.sh/install.ps1|iex" #安装指令  
+
 bun --version  #查看版本
+
 cd C:\Users\Administrator\Desktop\claude-code-main  #放在C盘桌面时, 可以直接进
+
 cd /d +目录 #跨盘进
+
 #要安装git https://git-scm.com/install/windows, 选x64 setup, 全自动选默认的直接安装
+
 git --version #看下是否安装成功
+
 git init  #初始化 git环境, 让prepare脚本正常执行
 
 #Bun 是什么？ 是一个比 Node.js 更快的 JavaScript 运行时和包管理器，这个 Claude Code 项目用 Bun 做开发，所以必须安装
